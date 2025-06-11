@@ -1,0 +1,13 @@
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\bin\x64\Debug\net8.0\AutoCAD-Line.deps.json
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\bin\x64\Debug\net8.0\AutoCAD-Line.dll
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\bin\x64\Debug\net8.0\AutoCAD-Line.pdb
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.csproj.AssemblyReference.cache
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.AssemblyInfoInputs.cache
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.AssemblyInfo.cs
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.csproj.CoreCompileInputs.cache
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.sourcelink.json
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.dll
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\refint\AutoCAD-Line.dll
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\AutoCAD-Line.pdb
+C:\Users\RutikGurav\source\repos\AutoCAD-Line\AutoCAD-Line\obj\x64\Debug\net8.0\ref\AutoCAD-Line.dll

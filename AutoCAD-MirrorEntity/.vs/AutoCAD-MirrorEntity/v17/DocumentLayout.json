@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RutikGurav\\source\\repos\\AutoCAD-MirrorEntity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09917E4F-B346-4706-885A-89817095DB30}|AutoCAD-MirrorEntity\\AutoCAD-MirrorEntity.csproj|c:\\users\\rutikgurav\\source\\repos\\autocad-mirrorentity\\autocad-mirrorentity\\mirrorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09917E4F-B346-4706-885A-89817095DB30}|AutoCAD-MirrorEntity\\AutoCAD-MirrorEntity.csproj|solutionrelative:autocad-mirrorentity\\mirrorentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 400,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MirrorEntity.cs",
+              "DocumentMoniker": "C:\\Users\\RutikGurav\\source\\repos\\AutoCAD-MirrorEntity\\AutoCAD-MirrorEntity\\MirrorEntity.cs",
+              "RelativeDocumentMoniker": "AutoCAD-MirrorEntity\\MirrorEntity.cs",
+              "ToolTip": "C:\\Users\\RutikGurav\\source\\repos\\AutoCAD-MirrorEntity\\AutoCAD-MirrorEntity\\MirrorEntity.cs",
+              "RelativeToolTip": "AutoCAD-MirrorEntity\\MirrorEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T13:37:58.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+﻿<Window x:Class="WPF_FORM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="450">
+    <Grid Background="#f0f0f0" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.Row="0" Text="Select Entity to Draw"
+                   FontSize="20" FontWeight="Bold"
+                   Margin="0 0 0 15" HorizontalAlignment="Center"/>
+
+        <!-- Dropdown -->
+        <ComboBox Grid.Row="1" x:Name="EntitySelector"
+                  SelectionChanged="EntitySelector_SelectionChanged"
+                  Height="35" Margin="0 0 0 20" VerticalAlignment="Top">
+            <ComboBoxItem Content="Line"/>
+            <ComboBoxItem Content="Polyline"/>
+            <ComboBoxItem Content="Circle"/>
+            <ComboBoxItem Content="Rectangle"/>
+            <ComboBoxItem Content="Arc"/>
+        </ComboBox>
+
+        <!-- Entity Forms -->
+        <StackPanel Grid.Row="2" Orientation="Vertical" VerticalAlignment="Top" >
+
+            <!-- LINE -->
+            <GroupBox Header="Line" Margin="0 0 0 10" x:Name="LineGroup" Visibility="Collapsed">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Enter Start Point (x,y):"/>
+                    <TextBox x:Name="LineLengthInput" Height="30"/>
+                    <TextBlock Text="Enter End Point (x,y):"/>
+                    <TextBox x:Name="LineEndInput" Height="30"/>
+                    <Button Click="CreateLine_Click" Content="Create Line" Margin="0 10 0 0" Height="35" Background="#0078D7" Foreground="White"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- POLYLINE -->
+            <GroupBox Header="Polyline" x:Name="PolylineGroup" Visibility="Collapsed" Margin="0 0 0 10">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Enter Start Point (x,y):"/>
+                    <TextBox x:Name="PolylineStartInput" Height="30"/>
+                    <TextBlock Text="Enter Mid Point (x,y):"/>
+                    <TextBox x:Name="PolylineMidInput" Height="30"/>
+                    <TextBlock Text="Enter End Point (x,y):"/>
+                    <TextBox x:Name="PolylineEndInput" Height="30"/>
+                    <Button Click="CreatePolyline_Click" Content="Create Polyline"
+                            Height="35" Background="#0078D7" Foreground="White" Margin="0 10 0 0"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- CIRCLE -->
+            <GroupBox Header="Circle" x:Name="CircleGroup" Visibility="Collapsed" Margin="0 0 0 10">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Enter Start Point (x,y):"/>
+                    <TextBox x:Name="CircleStartInput" Height="30"/>
+                    <TextBlock Text="Enter Radius:"/>
+                    <TextBox x:Name="CircleRadiusInput" Height="30"/>
+                    <Button Click="CreateCircle_Click" Content="Create Circle"
+                            Height="35" Background="#0078D7" Foreground="White" Margin="0 10 0 0"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- RECTANGLE -->
+            <GroupBox Header="Rectangle" x:Name="RectangleGroup" Visibility="Collapsed" Margin="0 0 0 10">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Enter Height:"/>
+                    <TextBox x:Name="RectHeightInput" Height="30"/>
+                    <TextBlock Text="Enter Width:"/>
+                    <TextBox x:Name="RectWidthInput" Height="30"/>
+                    <Button Click="CreateRectangle_Click" Content="Create Rectangle"
+                            Height="35" Background="#0078D7" Foreground="White" Margin="0 10 0 0"/>
+                </StackPanel>
+            </GroupBox>
+            <!-- ARC -->
+            <GroupBox Header="Arc" x:Name="ArcGroup" Visibility="Collapsed" Margin="0 0 0 10">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Enter Center Point (x,y):"/>
+                    <TextBox x:Name="ArcCenterInput" Height="30"/>
+
+                    <TextBlock Text="Enter Radius:"/>
+                    <TextBox x:Name="ArcRadiusInput" Height="30"/>
+
+                    <TextBlock Text="Enter Start Angle (in degrees):"/>
+                    <TextBox x:Name="ArcStartAngleInput" Height="30"/>
+
+                    <TextBlock Text="Enter End Angle (in degrees):"/>
+                    <TextBox x:Name="ArcEndAngleInput" Height="30"/>
+
+                    <Button Click="CreateArc_Click" Content="Create Arc"
+                Height="35" Background="#0078D7" Foreground="White" Margin="0 10 0 0"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Vertical" Margin="0 20 0 0">
+            <Button Margin="0 0 0 10" Content="Show Layer Creator" Height="40"
+            Background="#444" Foreground="White" FontWeight="Bold"
+            Click="ShowLayerInputs_Click"/>
+
+            <Button Content="Add Dimension" Height="40"
+            Background="Green" Foreground="White" FontWeight="Bold"
+            HorizontalAlignment="Stretch"
+            Click="AddDimension_Click"/>
+
+            <!-- 🔴 Remove All Layers Button -->
+            <Button Content="Remove All Layers (Reset to 0)"
+            Height="40" Margin="0 10 0 0"
+            Background="#D32F2F"
+            Foreground="White"
+            FontWeight="Bold"
+            HorizontalAlignment="Stretch"
+            Click="RemoveLayerButton_Click">
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="2" BlurRadius="4" Opacity="0.4"/>
+                </Button.Effect>
+            </Button>
+
+            <!-- Hidden Panel for Layer Creation -->
+            <StackPanel x:Name="LayerInputPanel" Visibility="Collapsed" Margin="0 10 0 0">
+
+                <TextBlock Text="Entity Type:" FontWeight="Bold"/>
+                <ComboBox x:Name="LayerEntitySelector"
+                  Height="30" Margin="0 5 0 10"
+                  SelectionChanged="LayerEntitySelector_SelectionChanged">
+                    <ComboBoxItem Content="Line"/>
+                    <ComboBoxItem Content="Polyline"/>
+                    <ComboBoxItem Content="Circle"/>
+                    <ComboBoxItem Content="Rectangle"/>
+                    <ComboBoxItem Content="Arc"/>
+                </ComboBox>
+
+                <TextBlock Text="Layer Name:" FontWeight="Bold"/>
+                <TextBox x:Name="LayerNameInput" Height="30" Margin="0 5 0 10"/>
+
+                <TextBlock Text="Color Index (1-255):" FontWeight="Bold"/>
+                <TextBox x:Name="LayerColorInput" Height="30" Margin="0 5 0 10"/>
+
+                <Button Content="Create Layer" Height="35"
+                Background="#0078D7" Foreground="White"
+                Click="CreateLayer_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

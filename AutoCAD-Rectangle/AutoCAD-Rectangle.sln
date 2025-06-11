@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCAD-Rectangle", "AutoCAD-Rectangle\AutoCAD-Rectangle.csproj", "{D5E156F2-4F53-420C-B9A0-DF288FE55663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Debug|x64.ActiveCfg = Debug|x64
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Debug|x64.Build.0 = Debug|x64
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Release|x64.ActiveCfg = Release|x64
+		{D5E156F2-4F53-420C-B9A0-DF288FE55663}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B367EB7F-A573-48A3-9C5F-21492EA88412}
+	EndGlobalSection
+EndGlobal

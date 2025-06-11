@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RutikGurav\\source\\repos\\AutoCAD-Line\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{690AF3FA-E1DA-4531-AADE-0F2231D54B05}|AutoCAD-Line\\AutoCAD-Line.csproj|c:\\users\\rutikgurav\\source\\repos\\autocad-line\\autocad-line\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690AF3FA-E1DA-4531-AADE-0F2231D54B05}|AutoCAD-Line\\AutoCAD-Line.csproj|solutionrelative:autocad-line\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\RutikGurav\\source\\repos\\AutoCAD-Line\\AutoCAD-Line\\Class1.cs",
+              "RelativeDocumentMoniker": "AutoCAD-Line\\Class1.cs",
+              "ToolTip": "C:\\Users\\RutikGurav\\source\\repos\\AutoCAD-Line\\AutoCAD-Line\\Class1.cs",
+              "RelativeToolTip": "AutoCAD-Line\\Class1.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAwwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:37:04.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
